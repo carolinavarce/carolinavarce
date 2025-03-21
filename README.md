@@ -92,5 +92,5 @@ project-root/
 ---
 🛠️ **Autor:** Carolina Vargas Arce  
 📅 **Fecha de Creación:** Marzo 2025  
-🔗 **Repositorio GitHub:** [Enlace al repo]
+🔗 **Repositorio GitHub:** [[Enlace al repo](https://github.com/carolinavarce/carolinavarce/blob/main/README.md#-siguientes-pasos)]
 
