@@ -111,16 +111,20 @@ pip install -r requirements.txt
 
 ### 4. Ejecutar scripts del pipeline
 
+Primero tenemos activado el entorno virtual: 
+
+source ~/airflow_venv/bin/activate
+
+
 ```bash
 cd ~/etl-pipeline/scripts
 
-python extract.py         # Extrae desde CSV
-python extract_api.py     # Extrae desde API REST
-python transform.py       # Limpia y transforma
-python load.py            # Inserta en base de datos
-```
+python extract_api.py       # Extrae datos desde una API REST y guarda un CSV
+python extract.py           # Extrae datos desde un CSV/JSON ya existente
+python transform.py         # Limpia y transforma los datos
+python load.py              # Carga los datos a PostgreSQL
 
-> También puedes ejecutar el pipeline completo como un DAG de Airflow si lo tienes configurado.
+
 
 ---
 
