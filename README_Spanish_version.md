@@ -1,7 +1,7 @@
 # 📌 Pipeline ETL con Integración de Datos
 
 ## 📢 Descripción
-Este proyecto implementa un pipeline ETL (Extract, Transform, Load) para extraer datos de varias fuentes, transformarlos y cargarlos en una base de datos centralizada. El objetivo es construir un flujo de datos automatizado y escalable utilizando herramientas de procesamiento de datos.
+Este proyecto implementa un pipeline ETL (Extract, Transform, Load) para extraer datos de diferentes fuentes, transformarlos y cargarlos en una base de datos centralizada. El objetivo es construir un flujo de datos automatizado y escalable utilizando herramientas de procesamiento de datos.
 
 ## 🎯 Objetivos
 ✅ Extraer datos de diferentes fuentes (APIs, bases de datos SQL, archivos CSV/JSON)
